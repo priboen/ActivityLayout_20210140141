@@ -19,19 +19,20 @@
         android:id="@+id/imageView8"
         android:layout_width="75dp"
         android:layout_height="85dp"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:src="@drawable/img_logo"
         android:layout_gravity="top|left"
+        android:contentDescription="@string/img_desc"
         />
 
     <TextView
         android:id="@+id/textView3"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_gravity="top|center_horizontal"
-        android:layout_marginLeft="-30dp"
+        android:layout_marginStart="-30dp"
         android:layout_marginTop="19dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,11 +43,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|center_horizontal"
-        android:layout_marginLeft="-54dp"
+        android:layout_marginStart="-54dp"
         android:layout_marginTop="45dp"
         android:text="@string/img_desc"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="italic" />
 
     <ImageView
@@ -54,8 +55,9 @@
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_gravity="center|left"
-        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
         android:src="@drawable/baseline_arrow_back_ios_24"
+        android:contentDescription="@string/img_desc"
         />
 
     <ImageView
@@ -63,7 +65,20 @@
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_gravity="center|right"
-        android:layout_marginLeft="12dp"
-        android:src="@drawable/baseline_arrow_forward_ios_24" />
+        android:layout_marginStart="12dp"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
+        android:contentDescription="@string/img_desc"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_nameGravity"
+        android:layout_gravity="bottom|center"
+        android:backgroundTint="@color/red"
+        android:contentDescription="@string/img_desc"
+        />
 
 </FrameLayout>
