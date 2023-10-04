@@ -9,5 +9,11 @@
     <string name="img_desc">Michie JKT48</string>
     <string name="member_name">Michelle Alexandra</string>
     <string name="button_nameGravity">JKT48 Member</string>
+    <string name="text_1">Download After Effect</string>
+    <string name="text_2">About After Effect</string>
+    <string name="text_3">Installation</string>
+    <string name="text_4">Tutorial</string>
+    <string name="text_5">Plugins</string>
+    <string name="text_6">Need help about this program?</string>
 
 </resources>
