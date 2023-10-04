@@ -15,5 +15,12 @@
     <string name="text_4">Tutorial</string>
     <string name="text_5">Plugins</string>
     <string name="text_6">Need help about this program?</string>
+    <string name="text_tablenama">Nama :</string>
+    <string name="text_username">Masukan Username Kamu</string>
+    <string name="text_phone">Masukan Nomor HP Kamu</string>
+    <string name="text_adress">Masukan Alamat Kamu</string>
+    <string name="text_tablephone">Telp :</string>
+    <string name="text_tableadress">Alamat :</string>
+    <string name="submit_text">Submit</string>
 
 </resources>
